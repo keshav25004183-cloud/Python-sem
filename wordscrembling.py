@@ -6,6 +6,7 @@ scrambled = ''.join(random.sample(word, len(word)))
 print("Unscramble the word:", scrambled)
 guess = input("Your guess: ")
 if guess.lower() == word:
-    print("Correct! 🎉")
+    print("Correct! @@")
 else:
+
     print("Wrong! The word was:", word)
